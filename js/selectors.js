@@ -1,22 +1,20 @@
-// declare your functions here...
+function paragraphSelector(){
+  return $('p');
+}
+function lastImageSelector(){
+  return $('img:last');
+}
+function ninjaBabySelector(){
+   return $("img[id='baby-ninja']")
+}
+// function ninjaBabySelector(){
+//   return $("#baby-ninja")
+// }
 
-$(document).ready(
-  
-  function paragraphSelector() {
-  $("p").return("p");
-}
-function lastImageSelector() {
-  $("img").return("img.length-1");
-}
-
-function ninjaBabySelector() {
-  $("#ninja").append("<img src=''/>");  baby image
-}
-function divSelector() {
-  $(".pic").append("pics");   class pics
-}
-function firstListItem() {
-  $("#pic-list").return("p");
+function divSelector(){
+  return $('.pics');
 }
 
-);
+function firstListItem(){
+  return $('ul#pic-list li:first-child');
+}
